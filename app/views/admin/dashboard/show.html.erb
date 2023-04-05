@@ -1,2 +1,12 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+ <div class="container m-4">
+<table class="table table-bordered ">
+  <tr>
+    <td><%= link_to "Current Number of Products", '/admin/products' %></td>
+    <td>Current Number of Product Category</td>
+  </tr>
+  <tr>
+    <td><%=  @product_count %></td>
+    <td><%=  @category_count %></td>
+  </tr>
+</table>
+</div>
