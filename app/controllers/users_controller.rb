@@ -7,9 +7,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
+      session[:user_id] = @user.id
       redirect_to '/', notice: 'User created!'
     else
-      redirect_to '/users/index'
+      redirect_to '/signup'
     end
   end
 
@@ -20,7 +21,8 @@ class UsersController < ApplicationController
       :first_name,
       :last_name,
       :email,
-      :password
+      :password,
+      :password_confirmation
     )
   end
 
