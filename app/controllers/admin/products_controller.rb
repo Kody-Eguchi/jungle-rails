@@ -39,11 +39,6 @@ class Admin::ProductsController < ApplicationController
     )
   end
 
-  def set_account
-  end
-
-  def authenticate
-  end
 
 
 end
