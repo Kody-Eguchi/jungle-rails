@@ -17,6 +17,12 @@
 </div>
 
   <main class="container">
+    <% if active_sale? %>
+      <p class="alert alert-info mt-4">
+        We're on <%= "Spring Sale"  %>!
+        <strong>Everything is <%= "50"%>% off!</strong>
+      </p>
+    <% end %>
     <%= yield %>
   </main>
 
