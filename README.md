@@ -32,7 +32,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
-- Home Page [URL](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-home.png)
-- Admin Categories [URL](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-admin-categories.png)
-- Checkout Page [URL](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-checkout.png)
-- Sign Up Form [URL](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-signup-form.png)
+- ![Home Page](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-home.png)
+- ![Admin Categories](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-admin-categories.png)
+- ![Checkout Page](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-checkout.png)
+- ![Sign Up Form](https://github.com/Kody-Eguchi/jungle-rails/blob/master/docs/jungle-signup-form.png)
